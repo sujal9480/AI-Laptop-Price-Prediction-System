@@ -1,0 +1,9 @@
+### AI-Based Laptop Price Prediction System
+
+• Developed a machine learning-based web application to predict laptop prices using hardware specifications such as RAM, storage, processor, GPU, and operating system.
+
+• Performed data preprocessing, feature engineering, and exploratory data analysis on structured laptop datasets.
+
+• Implemented prediction models using Python, Pandas, Scikit-learn, and Random Forest Regression.
+
+• Designed an interactive web application using Streamlit with features including laptop recommendations, price categorization, and user-friendly interfaces.
