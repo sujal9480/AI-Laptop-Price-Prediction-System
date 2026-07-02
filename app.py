@@ -62,19 +62,18 @@ div[data-testid="metric-container"]{
 
 # ==========================================
 # LOAD MODEL
-# ==========================================
 try:
-   model = joblib.load(
-    "Laptop_Price_Prediction/model/laptop_price_model.pkl"
-)
+    model = joblib.load(
+        "Laptop_Price_Prediction/model/laptop_price_model.pkl"
+    )
 
-columns = joblib.load(
-    "Laptop_Price_Prediction/model/model_columns.pkl"
-)
+    columns = joblib.load(
+        "Laptop_Price_Prediction/model/model_columns.pkl"
+    )
+
 except Exception as e:
-    st.error(e)
+    st.error(f"Model Loading Error: {e}")
     st.stop()
-
 # ==========================================
 # TITLE
 # ==========================================
